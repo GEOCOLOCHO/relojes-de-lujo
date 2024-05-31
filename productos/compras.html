@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style4.css" >
+    <link rel="icon" href="Images/10.png">
+    <title>Opulence Watches</title>
+  </head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Anton&family=Chivo+Mono:wght@500&display=swap');
+    </style>
+  <body>
+    <div class="contenedor">
+      <header>
+        <div class="logo">
+          <img src="./Images/logo.png" alt="logo">
+          <h1>Opulence Watches<span>.com</span></h1>
+        </div>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="#">Productos</a></li>
+          <li><a href="galeria.html">Galeria</a></li>
+          <li><a href="acerca.html">Acerca de</a></li>
+        </ul>
+      </header>
+      
+      <div class="Formulario">
+        <h1>Registro de compra</h1>
+        <br>
+        <br>
+        <form action="https://formsubmit.co/jcolocho107@gmail.com" method="POST" >
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="name"><br><br>   
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido"><br><br>
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo"><br><br>
+
+        <label for="Celular">Celular</label>
+        <input type="text" id="Celular" name="Celular"><br><br>
+
+        <label for="direccion">Dirreccion:</label>
+        <textarea type="text" id="direccion" name="Direccion"></textarea><br><br>
+
+        <label for="intereses">Articulo a comprar:</label>
+        
+        <select multiple id="intereses" name="intereses[]">
+            <option value="Rolex Submariner">Rolex Submariner</option>
+            <option value="Rolex Daytona">Rolex Daytona</option>
+            <option value="Rolex Datejust">Rolex Datejust</option>
+            <option value="Casio Breitling Navitimer">Casio Breitling Navitimer</option>
+            <option value="Casio Omega Speedmaster">Casio Omega Speedmaster</option>
+            <option value="Casio Oyster Perpetual">Casio Oyster Perpetual</option>
+        </select><br><br>
+        
+        <label for="indicaciones">Comentarios:</label>
+        <textarea type="text" id="indicaciones" name="indicaciones"></textarea><br><br>
+        <input type="submit" value="Enviar">
+        <input type="reset">
+      </form>
+      </div>
+    </div>
+
+    </body>
+    </html>
